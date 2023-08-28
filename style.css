@@ -9,6 +9,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    /* cursor: none; */
 }
 
 body {
@@ -16,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     /* background-color: cornflowerblue; */
-    background: rgb(18, 132, 255);
+    /* background: rgb(18, 132, 255); */
     background: linear-gradient(90deg, rgba(18, 132, 255, 1) 25%, rgba(15, 131, 239, 1) 48%, rgba(11, 94, 174, 1) 96%);
 }
 
@@ -90,6 +91,19 @@ body {
 .btn-add{
     margin-top: 1.7em;
     font-weight: 550;
+}
+
+#cursor{
+    /* height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black; */
+    position: absolute;
+}
+
+#cursor img{
+    transform: translate(-50%, -50%) scale(0.07);
+    position: absolute;
 }
 /* .btn:hover{
     scale: 5%;
